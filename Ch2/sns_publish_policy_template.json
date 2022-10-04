@@ -1,0 +1,20 @@
+{
+  "Version": "2008-10-17",
+  "Id": "__default_policy_ID",
+  "Statement": [
+    {
+      "Sid": "allows-publish-from-s3-demo-bucket",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "s3.amazonaws.com"
+      },
+      "Action": "SNS:Publish",
+      "Resource": "SNS_TOPIC_ARN",
+      "Condition": {
+        "ArnEquals": {
+          "aws:SourceArn": "S3_BUCKET_ARN"
+        }
+      }
+    }
+  ]
+}

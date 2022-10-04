@@ -1,0 +1,63 @@
+{
+  "director": "Steven Spielberg",
+  "film_title": "Jurassic Park",
+  "release_year": "1991"
+}
+
+
+{
+  "director": "Alfred Hitchcock",
+  "film_title": "Psycho",
+  "release_year": "1960"
+}
+
+
+
+{
+  "director": "Gus Van Sant",
+  "film_title": "Psycho",
+  "release_year": "1998"
+}
+
+
+{
+  "cast": [
+    {
+      "Han Solo": "Harrison Ford"
+    },
+    {
+      "Luke Skywalker": "Mark Hamill"
+    },
+    {
+      "Princess Leia": "Carrie Fisher"
+    }
+  ],
+  "director": "George Lucas",
+  "film_title": "Star Wars",
+  "genre": "sci-fi",
+  "release_year": "1977"
+}
+
+
+
+{
+  "director": "Michael Gondry",
+  "film_title": "Eternal Sunshine of the Spotless Mind"
+}
+
+
+
+{
+  "director": "Steven Spielberg",
+  "film_title": "Jaws",
+  "release_year": "1977",
+  "stars": 5
+}
+
+
+
+{
+  "director": "Christopher Nolan",
+  "film_title": "Memento",
+  "release_year": "2000"
+}

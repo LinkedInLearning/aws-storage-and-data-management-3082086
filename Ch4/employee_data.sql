@@ -41,25 +41,25 @@ insert into departments values (4, 'Product Support');
 commit;
 
 -- sales
-insert into employees values (1, 'Jim', 'Dunn', 1 );
-insert into employees values (2, 'Susan', 'Smith', 1 );
-insert into employees values (3, 'Don', 'Draper', 1 );
+insert into employees values (1, 'Carol', 'Shaw', 1 );
+insert into employees values (2, 'Elizabeth', 'Carr', 1 );
+insert into employees values (3, 'Ernest', 'Ramos', 1 );
 
 
 -- marketing
-insert into employees values (4, 'Bobby', 'Briggs', 2 );
-insert into employees values (5, 'Laura', 'Palmer', 2 );
-insert into employees values (6, 'Dale', 'Cooper', 2 );
+insert into employees values (4, 'Jack', 'Peters', 2 );
+insert into employees values (5, 'Nicholas', 'Clark', 2 );
+insert into employees values (6, 'Janice', 'Michell', 2 );
 
 -- engineering
-insert into employees values (7, 'Geordi', 'La Forge', 3 );
-insert into employees values (8, 'Zack', 'Morris', 3 );
-insert into employees values (9, 'Daveed', 'Diggs', 3 );
+insert into employees values (7, 'Earl', 'Carter', 3 );
+insert into employees values (8, 'Diane', 'Perez', 3 );
+insert into employees values (9, 'Patrick', 'Young', 3 );
 
 -- product support
-insert into employees values (10, 'Hasan', 'Minaj', 4 );
-insert into employees values (11, 'Nikki', 'Minaj', 4 );
-insert into employees values (12, 'Lin', 'Miranda', 4 );
+insert into employees values (10, 'Anne', 'Hicks', 4 );
+insert into employees values (11, 'Patrick', 'Young', 4 );
+insert into employees values (12, 'Emily', 'Watkins', 4 );
 
 insert into projects values (1, 'CRM Implementation' );
 insert into project_team_members values (7, 1 );

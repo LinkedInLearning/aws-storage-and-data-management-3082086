@@ -1,34 +1,20 @@
 # AWS: Storage and Data Management
 This is the repository for the LinkedIn Learning course AWS: Storage and Data Management. The full course is available from [LinkedIn Learning][lil-course-url].
 
-_See the readme file in the main branch for updated instructions and information._
-## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+![AWS: Storage and Data Management][lil-thumbnail-url] 
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
-
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
-
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
-
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
-
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+Amazon Web Services offers solutions that are ideal for managing data on a sliding scale—from small businesses to big data applications. This course teaches system administrators the intermediate-level skills they need to successfully manage data by creating backups, enforcing compliance requirements, and managing the disaster recovery process. Instructor Brandon Rich shows how to configure object storage solutions and lifecycle management in Simple Storage Service (S3), and migrate, back up, and replicate relational data in RDS. Find out how to leverage flexible network storage with Elastic File System (EFS), and use AWS Glue to move and transform data. Plus, learn how Snowball can help you transfer truckloads of data in and out of the cloud.
 
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+### Instructor
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+Brandon Rich 
+                            
+Application Integration Architect
 
+                            
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/brandon-rich).
+
+[lil-course-url]: https://www.linkedin.com/learning/aws-storage-and-data-management-17535108?dApp=59033956
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/C560DAQFOfnWsuTJ7WA/learning-public-crop_675_1200/0/1671825403910?e=2147483647&v=beta&t=yAwf29KUTWa7yFS-V4fZlocGjdCUL9aTn0kokmWgwn8
